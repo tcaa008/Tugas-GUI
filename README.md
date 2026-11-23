@@ -1,2 +1,57 @@
-# Tugas-GUI
+🎟️ Tiket Konser Neon (Java Swing)
 
+Tugas Pemrograman Berorientasi Objek (PBO) tentang Graphical User Interface (GUI) menggunakan Java Swing. Program menampilkan sebuah tiket konser bertema neon beserta tombol keluar.
+
+📌 Deskripsi
+
+Program ini membuat jendela GUI sederhana yang menampilkan tiket masuk NEON FEST 2026. Tiket berisi kode tiket, nama pemesan, band, jenis tiket, jumlah, dan total bayar. Tampilan memakai tema neon (ungu gelap dengan aksen pink dan cyan).
+
+✨ Fitur
+Tampilan tiket konser bertema neon
+Judul, isi tiket, dan tombol tersusun rapi memakai layout manager
+Tombol KELUAR untuk menutup program (event handling)
+Data tiket mudah diganti lewat variabel di dalam kode
+🧰 Teknologi
+Bahasa: Java
+Library: Java Swing (javax.swing), AWT (java.awt), dan AWT Event (java.awt.event)
+Editor: Visual Studio Code
+🧩 Konsep PBO dan GUI yang Digunakan
+Konsep	Penerapan di program
+Top-level container	JFrame sebagai jendela utama
+Intermediate container	JPanel untuk mengelompokkan komponen
+Atomic component	JLabel, JTextArea, JButton
+Layout manager	BorderLayout (kerangka utama) dan GridLayout (judul)
+Inheritance (pewarisan)	TiketNeon extends JFrame
+Interface	implements ActionListener
+Event handling	Method actionPerformed untuk tombol KELUAR
+🖼️ Susunan Tampilan
+┌───────────────────────────────┐
+│        NEON FEST 2026         │  ← NORTH  (judul)
+│        ~ TIKET MASUK ~        │
+├───────────────────────────────┤
+│  Kode Tiket  : NF-2026-0817   │
+│  Nama        : Rafa Pratama   │  ← CENTER (isi tiket)
+│  Band        : Neon Dreams    │
+│  Jenis Tiket : VIP            │
+│  Jumlah      : 2 tiket        │
+│  Total Bayar : Rp 1500000     │
+├───────────────────────────────┤
+│           [ KELUAR ]          │  ← SOUTH  (tombol)
+└───────────────────────────────┘
+📁 Struktur Proyek
+nama-proyek/
+├── src/
+│   └── TiketNeon.java
+└── README.md
+
+🔧 Cara Mengubah Data Tiket
+
+Ubah nilai variabel pada bagian // ----- Data tiket ----- di dalam constructor:
+
+java
+String kode   = "NF-2026-0817";
+String nama   = "Rafa Pratama";
+String band   = "Neon Dreams";
+String jenis  = "VIP";
+String jumlah = "2 tiket";
+String total  = "Rp 1500000";
