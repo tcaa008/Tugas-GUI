@@ -22,8 +22,3 @@ Inheritance (pewarisan)	TiketNeon extends JFrame
 Interface	implements ActionListener
 Event handling	Method actionPerformed untuk tombol KELUAR
 
-📁 Struktur Proyek
-nama-proyek/
-├── src/
-│   └── TiketNeon.java
-└── README.md
