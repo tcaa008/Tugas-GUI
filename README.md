@@ -1,6 +1,6 @@
-🎟️ Tiket Konser Neon (Java Swing)
+🎟️ Tiket Konser Neon
 
-Tugas Pemrograman Berorientasi Objek (PBO) tentang Graphical User Interface (GUI) menggunakan Java Swing. Program menampilkan sebuah tiket konser bertema neon beserta tombol keluar.
+Tugas Pemrograman Berorientasi Objek (PBO) tentang Graphical User Interface (GUI). Program menampilkan sebuah tiket konser bertema neon beserta tombol keluar.
 
 📌 Deskripsi
 
@@ -25,6 +25,7 @@ Inheritance (pewarisan)	TiketNeon extends JFrame
 Interface	implements ActionListener
 Event handling	Method actionPerformed untuk tombol KELUAR
 🖼️ Susunan Tampilan
+
 ┌───────────────────────────────┐
 │        NEON FEST 2026         │  ← NORTH  (judul)
 │        ~ TIKET MASUK ~        │
@@ -38,6 +39,7 @@ Event handling	Method actionPerformed untuk tombol KELUAR
 ├───────────────────────────────┤
 │           [ KELUAR ]          │  ← SOUTH  (tombol)
 └───────────────────────────────┘
+
 📁 Struktur Proyek
 nama-proyek/
 ├── src/
