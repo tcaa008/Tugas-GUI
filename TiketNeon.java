@@ -22,7 +22,7 @@ public class TiketNeon extends JFrame implements ActionListener {
         getContentPane().setLayout(new BorderLayout());
         getContentPane().setBackground(warnaLatar);
 
-        // ----- Data tiket (silakan diganti) -----
+        // ----- Data tiket -----
         String kode   = "NF-2026-0817";
         String nama   = "Tiha Nurra";
         String band   = "Neon Dreams";
